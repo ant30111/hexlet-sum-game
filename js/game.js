@@ -17,7 +17,7 @@ const playRound = () => {
     return false; // Убирает alert при отказе от игры (пользователь нажимает Отмена)
   } else if (!userAnswer) {
     alert('Введите ответ!');
-    return false; // Подскаживает о вводе ответа, при не заполнении ответа
+    return false; // Подсказывает о вводе ответа, при не заполнении ответа
  } else if (userAnswer === correctAnswer) {
     alert('Правильно!'); // Правильный ответ
     return true;
